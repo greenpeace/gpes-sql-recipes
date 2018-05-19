@@ -11,6 +11,10 @@ SELECT Suppressed, COUNT(Suppressed) AS Total
 FROM en_users
 GROUP BY Suppressed;
 
+-- INFO
+
+SELECT 'Suppressed emails report' AS '';
+
 -- SUPPRESSED BY TIPO
 
 SELECT Suppressed, tipo, COUNT(Suppressed) AS Total
