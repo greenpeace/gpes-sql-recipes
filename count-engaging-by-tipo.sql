@@ -1,0 +1,18 @@
+/*
+
+COUNT USERS BY TIPO
+
+*/
+
+-- UPDATE WHERE TIPO IS NULL
+
+UPDATE en_users
+SET tipo = 1
+WHERE tipo IS NULL;
+
+-- FACET ORDER BY COUNT
+
+SELECT `tipo`, COUNT(`tipo`)
+FROM `en_users`
+GROUP BY `tipo`
+ORDER BY COUNT(`tipo`) DESC;
