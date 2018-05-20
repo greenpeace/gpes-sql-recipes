@@ -2,6 +2,14 @@
 
 List of SQL snippets to analyse our database.
 
+## Exporting data from EN
+
+You might not be able to export all data in the same file, because of EN restrictions. You can split it by creation date. For us it works:
+
+* 21/03/2014 to 31/12/2015 - 586.000
+* 1/1/2016 to 31/7/2017 -
+* 1/8/2017 to 20/5/2017 - 349.000
+
 ## Create tables
 
 Create tables to import data into a local database.
