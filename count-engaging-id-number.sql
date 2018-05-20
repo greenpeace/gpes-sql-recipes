@@ -10,15 +10,15 @@ SELECT COUNT(*) AS 'Records witout id number' FROM en_users WHERE id_number = ''
 
 -- COUNT RECORDS WITH VALID ID NUMBER
 
-SELECT COUNT(id_number) AS 'Phone numbers with id number format'
+SELECT COUNT(id_number) AS 'ID numbers with correct format'
 FROM en_users
 WHERE id_number REGEXP '^[A-z]?[0123456789]{7,8}[TRWAGMYFPDXBNJZSQVHLCKEtrwagmyfpdxbnjzsqvhlcke]$';
 
 -- COUNT RECORDS WITH INVALID (wrong format) OR EMPTY ID NUMBER
 
-SELECT COUNT(id_number) AS 'Phone numbers with id number format'
+SELECT COUNT(id_number) AS 'Id numbers with wrong format or empty'
 FROM en_users
-WHERE id_number REGEXP '^[A-z]?[0123456789]{7,8}[TRWAGMYFPDXBNJZSQVHLCKEtrwagmyfpdxbnjzsqvhlcke]$';
+WHERE NOT id_number REGEXP '^[A-z]?[0123456789]{7,8}[TRWAGMYFPDXBNJZSQVHLCKEtrwagmyfpdxbnjzsqvhlcke]$';
 
 -- SHOW RECORDS WITH INVALID (wrong format) ID NUMBER
 
@@ -38,7 +38,7 @@ ORDER BY id_number;
 
 -- COUNT MULTIPLE ID NUMBERS
 
-SELECT COUNT(*) AS 'Number of email addresses with more than one ID number'
+SELECT COUNT(*) AS 'Number of email addresses with common ID numbers'
 FROM en_users
 WHERE id_number IN (
 SELECT id_number FROM en_users
