@@ -25,3 +25,23 @@ WHERE id_number REGEXP '^[A-z]?[0123456789]{7,8}[TRWAGMYFPDXBNJZSQVHLCKEtrwagmyf
 SELECT *
 FROM en_users
 WHERE NOT id_number REGEXP '^[A-z]?[0123456789]{7,8}[TRWAGMYFPDXBNJZSQVHLCKEtrwagmyfpdxbnjzsqvhlcke]$' AND id_number <> '';
+
+-- REPORT MULTIPLE ID NUMBERS
+
+SELECT *
+FROM en_users
+WHERE id_number IN (
+SELECT id_number FROM en_users
+GROUP BY id_number
+HAVING COUNT(`id_number`) > 1 AND id_number <> '')
+ORDER BY id_number;
+
+-- COUNT MULTIPLE ID NUMBERS
+
+SELECT COUNT(*) AS 'Number of email addresses with more than one ID number'
+FROM en_users
+WHERE id_number IN (
+SELECT id_number FROM en_users
+GROUP BY id_number
+HAVING COUNT(`id_number`) > 1 AND id_number <> '')
+ORDER BY id_number;
