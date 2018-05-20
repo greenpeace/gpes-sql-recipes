@@ -5,7 +5,7 @@ CREATE A TABLE TO IMPORT USER DATA FROM ENGAGING NETWORKS
 */
 CREATE TABLE `en_users` (
   `Supporter_ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Date Created` varchar(10) DEFAULT NULL,
+  `Date_Created` varchar(10) DEFAULT NULL,
   `Date_Modified` varchar(10) DEFAULT NULL,
   `Suppressed` varchar(1) DEFAULT NULL,
   `email` varchar(128) DEFAULT NULL,
