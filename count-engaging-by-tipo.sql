@@ -4,11 +4,15 @@ COUNT USERS BY TIPO
 
 */
 
--- UPDATE WHERE TIPO IS NULL
+-- UPDATE WHERE TIPO IS NULL AND EMPTY
 
 UPDATE en_users
 SET tipo = 1
 WHERE tipo IS NULL;
+
+UPDATE en_users
+SET tipo = 1
+WHERE tipo = '';
 
 -- INFO
 
