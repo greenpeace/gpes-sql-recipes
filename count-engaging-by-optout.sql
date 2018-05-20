@@ -4,11 +4,11 @@ COUNT OPTINS AND OPTOUTS
 
 */
 
--- UPDATE WHERE REAL EMAIL OK IS NULL
+-- UPDATE WHERE REAL EMAIL OK IS NULL OR EMPTY
 
 UPDATE en_users
 SET real_email_ok = 'Y'
-WHERE real_email_ok IS NULL;
+WHERE real_email_ok IS NULL OR real_email_ok = '';
 
 -- INFO
 
