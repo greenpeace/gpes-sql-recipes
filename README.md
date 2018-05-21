@@ -1,6 +1,6 @@
-# SQL Recipes
+# MySQL Recipes
 
-List of SQL snippets to analyse our database.
+List of MySQL snippets to analyse or fix our database.
 
 ## Exporting data from EN
 
@@ -12,14 +12,14 @@ You might not be able to export all data in the same file, because of EN restric
 
 ## Create tables
 
-Create tables to import data into a local database.
+Create tables to import data into a local database
 
 * [Create a table to import EN users](create-engaging-users.sql)
 * [Create a table to import EN transactional](create-engaging-transactional.sql)
 
 ## Count users
 
-* [Opt-out](count-engaging-by-optout.sql), [supressed](count-engaging-suppressed.sql) and [receive email status](count-engaging-receive-email.sql) - Report on users with different email status.
+* [Opt-out](count-engaging-by-optout.sql), [supressed](count-engaging-suppressed.sql) and [receive email status](count-engaging-receive-email.sql) - Report on users with different email status
 * [Tipo](count-engaging-by-tipo.sql) (donor status) - Donor status (Spain's Tipo)
 * [Id number](count-engaging-id-number.sql) - Valid and empty ID numbers (Spain)
 * [Phone number](count-engaging-phone-number.sql) - Valid and empty phone numbers
