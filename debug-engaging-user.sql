@@ -1,6 +1,6 @@
 /*
 
-DEBUG PROBLEMS WTH ENGAGING USER
+DEBUG PROBLEMS WTH ENGAGING USERS DATABASE
 
 */
 
@@ -35,10 +35,12 @@ last_name <> '' AND
 id_number <> '' AND
 phone_number <> '';
 
--- MISSING CONTACT CODES AND SFDC_contact_id
+-- MISSING CONTACT CODES
 
 SELECT * FROM en_users
 WHERE tipo IN (0,2,3,4,5) AND contact_codes = '';
+
+-- MISSING SFDC_contact_id
 
 SELECT * FROM en_users
 WHERE tipo IN (0,2,3,4,5) AND SFDC_contact_id = '';
