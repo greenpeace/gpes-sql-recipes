@@ -1,0 +1,12 @@
+/*
+
+CREATE A TABLE TO IMPORT ENGAGING NETWORKS OPT-OUTS
+
+*/
+
+CREATE TABLE `opt_outs` (
+  `Supporter_ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `email` varchar(128) DEFAULT NULL,
+  `real_email_ok` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`Supporter_ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=146876401 DEFAULT CHARSET=utf8;
