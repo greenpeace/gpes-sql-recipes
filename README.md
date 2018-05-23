@@ -12,7 +12,7 @@ You might not be able to export all data in the same file, because of EN restric
 
 ## Create tables
 
-Create tables to import data into a local database
+Create tables to import data into a local database:
 
 * [Create a table to import EN users](create-engaging-users.sql)
 * [Create a table to import EN transactional](create-engaging-transactional.sql)

@@ -17,6 +17,6 @@ WHERE Suppressed = 'Y' OR real_email_ok = 'N';
 
 -- OPT-INS
 
-SELECT COUNT(*) AS "Total emails that receive messages" FROM en_users
+SELECT COUNT(*) AS 'Total emails that receive messages' FROM en_users
 WHERE Suppressed = 'N' AND real_email_ok = 'Y';
 
