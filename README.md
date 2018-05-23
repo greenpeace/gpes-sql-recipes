@@ -15,6 +15,7 @@ You might not be able to export all data in the same file, because of EN restric
 Create tables to import data into a local database:
 
 * [Create a table to import EN users](create-engaging-users.sql)
+* [Create a table to import opt-outs](create-engaging-optouts.sql)
 * [Create a table to import EN transactional](create-engaging-transactional.sql)
 
 ## Count users
@@ -28,3 +29,9 @@ Create tables to import data into a local database:
 ## Debug
 
 * [Debug user](debug-engaging-user.sql) - Inconsistencies with the EN users database
+
+## Cross
+
+* [Cross EN users with other tables](cross-engaging-users-other.sql)
+
+
