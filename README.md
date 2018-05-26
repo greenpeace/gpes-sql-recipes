@@ -34,4 +34,7 @@ Create tables to import data into a local database:
 
 * [Cross EN users with other tables](cross-engaging-users-other.sql)
 
+## Hash
+
+* [Hash user data](hash-engaging.sql) - To protect user's privacy you can hash user data.
 
