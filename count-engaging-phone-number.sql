@@ -23,3 +23,4 @@ WHERE phone_number REGEXP '^[6789][0123456789]{8}';
 SELECT COUNT(phone_number) AS 'Phone numbers with invalid format'
 FROM en_users
 WHERE NOT (phone_number REGEXP '^[6789][0123456789]{8}') AND phone_number <> '';
+

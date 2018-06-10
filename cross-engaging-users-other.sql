@@ -18,3 +18,4 @@ SELECT * FROM en_users
 WHERE tipo = 1
 AND
 (Suppressed = 'Y' OR real_email_ok = 'N' OR soft_bounce = 'Y'  OR privacy_email_sent IS NULL);
+

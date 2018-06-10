@@ -38,3 +38,4 @@ CREATE TABLE `en_transactional` (
   `SFDC_Lead_ID` varchar(32) DEFAULT NULL,
   PRIMARY KEY (`Transaction_Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

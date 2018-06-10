@@ -10,3 +10,4 @@ CREATE TABLE `opt_outs` (
   `real_email_ok` varchar(1) DEFAULT NULL,
   PRIMARY KEY (`Supporter_ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=146876401 DEFAULT CHARSET=utf8;
+

@@ -24,3 +24,4 @@ SELECT `tipo`, COUNT(`tipo`)
 FROM `en_users`
 GROUP BY `tipo`
 ORDER BY COUNT(`tipo`) DESC;
+

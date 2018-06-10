@@ -44,3 +44,4 @@ WHERE tipo IN (0,2,3,4,5) AND contact_codes = '';
 
 SELECT * FROM en_users
 WHERE tipo IN (0,2,3,4,5) AND SFDC_contact_id = '';
+

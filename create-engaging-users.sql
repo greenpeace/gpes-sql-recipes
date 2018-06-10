@@ -30,3 +30,4 @@ CREATE TABLE `en_users` (
   `SFDC_Lead_ID` varchar(32) DEFAULT NULL,
   PRIMARY KEY (`Supporter_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

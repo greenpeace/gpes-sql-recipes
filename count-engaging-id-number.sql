@@ -45,3 +45,4 @@ SELECT id_number FROM en_users
 GROUP BY id_number
 HAVING COUNT(`id_number`) > 1 AND id_number <> '')
 ORDER BY id_number;
+

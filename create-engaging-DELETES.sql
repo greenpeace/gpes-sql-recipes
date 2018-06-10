@@ -23,3 +23,4 @@ CREATE TABLE `en_users` (
   `to_delete` varchar(1) DEFAULT NULL,
   PRIMARY KEY (`Supporter_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
