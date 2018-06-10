@@ -19,6 +19,7 @@ Start here: create tables to import data into a local database.
 * [Create a table to import EN users](create-engaging-users.sql)
 * [Create a table to import opt-outs](create-engaging-optouts.sql)
 * [Create a table to import EN transactional](create-engaging-transactional.sql)
+* [Ceate views](create-views.sql) - Create views to make it easier to visualize or export data. 
 
 ## Count users
 
