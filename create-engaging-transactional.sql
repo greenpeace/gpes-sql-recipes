@@ -30,6 +30,7 @@ CREATE TABLE `en_transactional` (
   `phone_number` varchar(14) DEFAULT NULL,
   `tipo` int(1) DEFAULT NULL,
   `date_of_birth` date DEFAULT NULL,
+  `gender` varchar(32) DEFAULT NULL,
   `city` varchar(128) DEFAULT NULL,
   `postcode` varchar(12) DEFAULT NULL,
   `contact_codes` varchar(256) DEFAULT NULL,
