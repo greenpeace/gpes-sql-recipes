@@ -8,7 +8,7 @@ You might not be able to export all data in the same file, because of EN restric
 
 * 21/03/2014 to 31/12/2015
 * 1/1/2016 to 31/7/2017
-* 1/8/2017 to 20/5/2017
+* 1/8/2017 to 12/6/2018
 
 To know what fields to export check the SQL files to [create users](create-engaging-users.sql), [create optouts](create-engaging-optouts.sql) and [create transactional](create-engaging-transactional.sql). You should ensure you have data in the requiered fields.
 
