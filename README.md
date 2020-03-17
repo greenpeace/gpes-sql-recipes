@@ -40,4 +40,4 @@ Start here: create tables to import data into a local database.
 ## Hash
 
 * [Hash user data](hash-engaging.sql) - To protect user's privacy you can hash user data.
-
+* [Recipes to encrypt emails and phones](encrypt-phone-email.sql) - For example to upload to Facebook and Adwords.
